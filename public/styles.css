@@ -82,7 +82,7 @@ body {
     margin-top: 64px;
   
     /* Visual  */
-    background-color: #fff;
+    background-color: rgb(252, 225, 244);
     padding: 16px;
     border-radius: 16px;
     color: rgb(5, 5, 5);
@@ -144,4 +144,38 @@ body {
     
 
    }
+
+   .m-butt{
+    margin: 100px auto 0px ;
   
+    /* Dimensions  */
+    width: 50%; /* Can be in percentage also. */
+    height: auto;
+
+    background-color: rgb(249, 250, 236);
+    color: black;
+    border-radius: 7px;;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+    padding: 40px;
+    text-align: left;
+   }
+
+   .restart{
+    background: rgb(17, 142, 170);
+    margin-top: 20px;
+    padding: -50px;
+   }
+
+   .info-title{
+    margin-bottom: 10px;
+    font-size: 25px;
+    background-color: rgb(198, 245, 245);
+    color: rgb(32, 15, 46);
+    font-weight: 100px;
+   }
+
+   .info{
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 10px;
+   }
